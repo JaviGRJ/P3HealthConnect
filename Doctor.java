@@ -1,3 +1,8 @@
+/**
+ * Represents a doctor with a medical specialty.
+ */
+
+
 public class Doctor extends User {
 private String specialty;
 

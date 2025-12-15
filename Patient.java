@@ -1,3 +1,8 @@
+/**
+ * Represents a patient in the HealthConnect system.
+ */
+
+
 public class Patient extends User {
 private int age;
 
@@ -7,6 +12,9 @@ super(id, name, email);
 this.age = age;
 }
 
+/**
+ * Returns the patient's age.
+ */
 
 public int getAge() {
 return age;

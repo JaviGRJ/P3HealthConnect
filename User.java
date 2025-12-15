@@ -1,3 +1,8 @@
+/**
+ * Base class representing a system user.
+ */
+
+
 public abstract class User {
 private String id;
 private String name;

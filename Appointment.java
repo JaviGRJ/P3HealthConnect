@@ -1,5 +1,9 @@
 import java.time.LocalDate;
 
+/**
+ * Represents a medical appointment between a doctor and a patient.
+ */
+
 
 public class Appointment {
 private Patient patient;
@@ -27,6 +31,10 @@ return doctor;
 public LocalDate getDate() {
 return date;
 }
+
+/**
+ * Creates a new appointment.
+ */
 
 
 @Override

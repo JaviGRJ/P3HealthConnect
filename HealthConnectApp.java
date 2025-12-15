@@ -1,3 +1,8 @@
+/**
+ * Main application class for HealthConnect.
+ */
+
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -13,8 +18,9 @@ private static List<Appointment> appointments = new ArrayList<>();
 
 
 /**
- * @param args
+ * Application entry point.
  */
+
 public static void main(String[] args) {
 Scanner scanner = new Scanner(System.in);
 boolean running = true;
